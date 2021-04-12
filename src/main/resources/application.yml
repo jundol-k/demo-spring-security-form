@@ -2,8 +2,3 @@ spring:
   output:
     ansi:
       enabled: always
-  security: # 권장하지않음. 이렇게 쓸 수 있다라는 것 일 뿐이다.
-    user:
-      name: admin
-      password: 123
-      roles: ADMIN
